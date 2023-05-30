@@ -1,0 +1,36 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.6027238950181768 0.5363704133429227 0.5907881905255558 2.1735298432793435
+  position 0.44746017172253144 0.20474932931734485 3.706621104353952
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+}
+E-puck {
+  hidden position_0_0 71.27099949745691
+  hidden position_0_1 74.73525724568046
+  hidden rotation_1 0 -0.9999999999999999 0 4.127224188698125
+  hidden rotation_2 0 -0.9999999999999999 0 0.6629664404745794
+  translation 0 0 -6.3932e-05
+  rotation -0.000723791840102143 -0.016549896343848035 -0.999862779113404 0
+  controller "train_position"
+  supervisor TRUE
+  turretSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
